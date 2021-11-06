@@ -1,0 +1,61 @@
+@import url("http://fonts.cdnfonts.com/css/kelly-slab");
+.background {
+  background-color: beige;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Kelly Slab;
+  margin: 150px;
+}
+
+#section {
+  display: -webkit-flex;
+  display: flex;
+}
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #bbb;
+  padding: 40px;
+}
+#name {
+  font-family: Kelly Slab;
+  font-size: 25px;
+  color: red;
+  opacity: 90%;
+}
+#m1 {
+  margin-left: 520px;
+}
+#m4 {
+  margin-left: 555px;
+}
+#m2 {
+  margin-left: 510px;
+}
+h2,
+h4 {
+  font-family: Kelly Slab;
+}
+
+.content {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: white;
+  padding: 40px;
+}
+#header {
+  background-color: darkred;
+}
+@media (max-width: 600px) {
+  section {
+    -webki-flex-derection: column;
+    flex-direction: column;
+  }
+}
